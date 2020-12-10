@@ -1,0 +1,24 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:inp="http://ecom/inpeg">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <inp:getBillInvoiceDetailsResponse>
+         <return>
+            <billRefNo>21071726</billRefNo>
+            <billRefResets>0</billRefResets>
+            <billSequenceNo></billSequenceNo>
+            <prepDt></prepDt>
+            <statementDt>2018-08-17 00:00:00.0</statementDt>
+            <paymentDueDt>2018-08-31 00:00:00</paymentDueDt>
+            <billPeriod></billPeriod>
+            <currencyCd>SGD</currencyCd>
+            <billAmt>0.00</billAmt>
+            <osAcctBalance>7249.30</osAcctBalance>
+            <lastPaidAmt>1.13</lastPaidAmt>
+            <lastPaidDt>2015-09-07</lastPaidDt>
+            <paidCurrencyCd>SGD</paidCurrencyCd>
+            <bmfTransTy></bmfTransTy>
+            <returnStatus>true</returnStatus>
+         </return>
+      </inp:getBillInvoiceDetailsResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
